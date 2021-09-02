@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import CustomButton from './customButton';
-import { StyleSheet, View, Alert, TextInput, Button } from "react-native";
+import { StyleSheet, View, Alert, TextInput } from "react-native";
 
 
 

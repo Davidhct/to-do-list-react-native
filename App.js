@@ -44,14 +44,15 @@ const styles = StyleSheet.create({
     borderBottomColor: 'black',
     borderBottomWidth: 1,
     padding: 5,
-    width: '80%'
+
   },
 
 
   list: {
     display: "flex",
     justifyContent: 'center',
-    alignItems: "center"
+    alignItems: "center",
+
   }
 
 });

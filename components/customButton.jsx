@@ -8,8 +8,8 @@ const CustomButton = ({ text, onPress }) => {
 
   return (
     <TouchableOpacity onPress={ onPress }>
-      <View style={ text === "X" ? styles.delete : styles.button }>
-        <Text style={ text === "X" ? styles.deleteText : styles.buttonText }>{ text }</Text>
+      <View style={ text === "Delete" ? styles.delete : styles.button }>
+        <Text style={ text === "Delete" ? styles.deleteText : styles.buttonText }>{ text }</Text>
       </View>
     </TouchableOpacity>
 
@@ -25,13 +25,17 @@ const styles = StyleSheet.create({
 
   button: {
 
-    backgroundColor: "#F08080",
+    backgroundColor: "#20B2AA",
     padding: 10,
     // borderWidth: 1,
     borderRadius: 15,
   },
   delete: {
-    backgroundColor: "whitesmoke",
+    backgroundColor: "white",
+    shadowColor: 'black',
+    shadowOpacity: 0.26,
+    elevation: 5,
+    padding: 5
   },
   buttonText: {
     color: "#FFFAF0",
@@ -40,6 +44,7 @@ const styles = StyleSheet.create({
   },
   deleteText: {
     color: "red",
-    fontSize: 20,
+    fontSize: 17,
+
   }
 });

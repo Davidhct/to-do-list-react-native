@@ -25,18 +25,10 @@ export default ListItem;
 
 const styles = StyleSheet.create({
   list: {
-
-    padding: 3,
-    // borderColor: "blue",
-    // borderWidth: 1,
-    // backgroundColor: "silver",
+    display: 'flex',
+    justifyContent: "space-around",
+    alignItems: "center",
     width: '95%',
-    shadowColor: 'black',
-    shadowOpacity: 0.26,
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 15,
-    elevation: 7,
-    backgroundColor: 'white'
   }
 
 });

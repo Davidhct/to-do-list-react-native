@@ -8,7 +8,7 @@ const Item = ({ item, deleteItem }) => {
 
     <View style={ styles.item }>
       <Text>{ item.text }</Text>
-      <CustomButton text="X" onPress={ () => deleteItem(item.id) } />
+      <CustomButton text="Delete" onPress={ () => deleteItem(item.id) } />
     </View>
 
 
@@ -19,7 +19,18 @@ export default Item;
 
 
 const styles = StyleSheet.create({
+  // itemContainer: {
 
+  //   shadowColor: 'black',
+  //   shadowOpacity: 0.26,
+  //   shadowOffset: { width: 6, height: 2 },
+  //   shadowRadius: 15,
+  //   elevation: 3,
+  //   backgroundColor: 'white',
+  //   marginBottom: 10,
+  //   borderRadius: 10,
+
+  // },
 
 
   item: {
@@ -27,12 +38,22 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "whitesmoke",
+
+    backgroundColor: "white",
     padding: 10,
     paddingLeft: 10,
-    borderBottomColor: 'white',
-    borderBottomWidth: 2,
-    width: '100%'
+    // borderBottomColor: 'white',
+    // borderBottomWidth: 2,
+    width: '79%',
+    shadowColor: 'black',
+    shadowOpacity: 0.26,
+    shadowOffset: { width: 0, height: 2 },
+    // shadowRadius: 30,
+    elevation: 2,
+
+    marginBottom: 10,
+
+
 
   }
 });
