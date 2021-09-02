@@ -25,10 +25,8 @@ export default ListItem;
 
 const styles = StyleSheet.create({
   list: {
-    display: 'flex',
-    justifyContent: "space-around",
-    alignItems: "center",
-    width: '95%',
+
+    width: "90%",
   }
 
 });

@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
   list: {
     display: "flex",
-    justifyContent: 'center',
+    justifyContent: "space-around",
     alignItems: "center",
 
   }
