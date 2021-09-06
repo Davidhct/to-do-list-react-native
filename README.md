@@ -12,7 +12,6 @@ The purpose of the project is to learn the React Native.<br>
 - Delete a task.
 - Mark a task you have completed.
 
-
-<kbd><img src="./public/demo images/img_1.png" width="630" height="300"></kbd>
-<kbd><img src="./public/demo images/img_2.png" width="630" height="300"></kbd>
-<kbd><img src="./public/demo images/img_3.png" width="630" height="300"></kbd>
+<kbd><img src="/demo images/img_1.png" width="630" height="300"></kbd>
+<kbd><img src="/demo images/img_2.png" width="630" height="300"></kbd>
+<kbd><img src="/demo images/img_3.png" width="630" height="300"></kbd>
