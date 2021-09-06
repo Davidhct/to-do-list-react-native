@@ -1,6 +1,5 @@
 # To do list in React Native
 
-
 ### Summary
 
 To do List application is an application that allows you to manage your tasks.<br>
