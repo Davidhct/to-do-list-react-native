@@ -12,16 +12,15 @@ const AddItem = ({ addItem }) => {
   const [identifier, setId] = useState('0');
 
   const onChangeInput = (enteredText) => {
-
-
-    setText({ id: identifier, text: enteredText.trim() })
-
+    setText({ id: identifier, text: enteredText })
   }
 
 
   const onPreesbtn = () => {
-    if (!item.text) {
+
+    if (item.text.trim() === "") {
       Alert.alert('Error', 'Please enter an item', [{ text: 'OK' }])
+      setText("")
     } else {
       let toStr = Number(identifier) + 1;
       toStr = String(toStr)
